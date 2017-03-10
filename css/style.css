@@ -1,0 +1,93 @@
+#head-search {
+    background: url('../img/icon-search.jpg')no-repeat 95% center;
+}
+
+
+/*.menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}*/
+.menu{
+    padding:20px 0 10px;
+}
+.menu-lg{
+    display:block;
+    width:23px;
+    height:50px;
+    vertical-align:middle;
+    background:url('../img/icon-twitter.jpg') no-repeat center center;
+}
+.ft-icon .menu-lg{
+    margin-left:25%;
+}
+.menu li:nth-child(1){
+    position:absolute;
+    left:0;
+    
+}
+.menu li{
+    padding:0;
+}
+.menu li a, .ft-menu li a{
+    display: block;
+    padding: 15px 22.5px;
+    color: #000;
+    text-align:center;
+    transition: color 0.3s;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+}
+.ft-menu li a{
+    text-align:left;
+    padding: 10px 22.5px;
+}
+
+.menu li a:hover, .ft-menu li a:hover{
+    color: #55c893;
+    transition: color 0.3s;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+}
+.head-search{
+    display:block;
+}
+.head-search input{
+    display:block;
+    width:80%;
+    text-align:center;
+    border:none;
+    padding:5px;
+}
+.head-info{
+    padding: 10px 0;
+    border-bottom:1px solid #939393;
+}
+.head-info .number p{
+    vertical-align:middle;
+}
+.head-info .lang-list ul li{
+    float:left;
+}
+.head-info .lang-list ul li a{
+    display:block;
+    padding:10px 3px;
+    font-size:14px;
+}
+.slider img{
+    width:100%;
+}
+footer{
+    height:235px;
+}
+.ft-box{
+    padding-top:25px;
+}
+.ft-number{
+    text-align:right;
+}

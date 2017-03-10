@@ -2,13 +2,9 @@
     background: url('../img/icon-search.jpg')no-repeat 95% center;
 }
 
-
-/*.menu {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-}*/
+li, p, span, a, a:visited, a:active, a:link{
+    color:#939393;
+}
 .menu{
     padding:20px 0 10px;
 }
@@ -33,7 +29,6 @@
 .menu li a, .ft-menu li a{
     display: block;
     padding: 15px 22.5px;
-    color: #000;
     text-align:center;
     transition: color 0.3s;
     -webkit-transition: color 0.3s;
@@ -53,6 +48,9 @@
     -moz-transition: color 0.3s;
     -ms-transition: color 0.3s;
     -o-transition: color 0.3s;
+}
+li .active{
+    color: #55c893;
 }
 .head-search{
     display:block;

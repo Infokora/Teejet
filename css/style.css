@@ -1,0 +1,25 @@
+#head-search {
+    background: url('../img/icon-search.jpg')no-repeat 95% center;
+}
+/*.menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}*/
+.menu li a {
+    display: block;
+    padding: 10px 32.5px;
+    color: #000;
+    transition: color 0.3s;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+}
+.menu li a:hover {
+    color: #55c893;
+}
+.head-info {
+    
+}

@@ -79,6 +79,9 @@
     padding:10px 3px;
     font-size:14px;
 }
+.slider img{
+    width:100%;
+}
 footer{
     height:235px;
 }
